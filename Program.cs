@@ -27,3 +27,9 @@ Console.WriteLine("Z");
 z2 = Convert.ToDouble(Console.ReadLine());
 distance = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2)+ Math.Pow(z2 - z1, 2));
 Console.WriteLine(distance);
+//Задача 23
+Console.WriteLine("Введите число");
+int N = Convert.ToInt32(Console.ReadLine());
+int i = 1;
+int a = 0;
+while (i <= N) {a=i*i*i; Console.Write(a+","); i++;}
